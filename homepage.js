@@ -61,7 +61,7 @@ if (currentUser) {
   authLink.addEventListener("click", function (e) {
     e.preventDefault();
     localStorage.removeItem("currentUser");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
   });
 }
 
